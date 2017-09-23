@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Calculator</string>
+    <string name="calc.string.hint">Que queres calcular hoy?</string>
 </resources>

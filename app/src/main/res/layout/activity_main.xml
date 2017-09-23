@@ -4,16 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/contentMain"
     tools:context="com.andersoncastellon.calculator.MainActivity">
 
     <android.support.design.widget.TextInputLayout
-        android:layout_width="wrap_content"
+        android:id="@+id/tilInput"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Transacción"/>
+            android:id="@+id/etInput"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/calc.dimen.input"
+            android:hint="@string/calc.string.hint"
+            android:gravity="end|center_vertical"
+            android:inputType="none"
+            android:textIsSelectable="false"
+            android:maxLength="16"
+            android:drawableEnd="@drawable/ic_backspace_black_48dp"
+            android:drawablePadding="16dp"/>
 
     </android.support.design.widget.TextInputLayout>
 
