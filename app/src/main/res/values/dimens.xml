@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="calc.dimen.input">96dp</dimen>
+    <dimen name="calc.buttom.size">64dp</dimen>
+    <dimen name="calc.TextButtonStyle.Size">28sp</dimen>
 </resources>

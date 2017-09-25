@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Calculator</string>
-    <string name="calc.string.hint">Que queres calcular hoy?</string>
+    <string name="calc.string.hint">Que quieres calcular hoy?</string>
+    <string name="textbutton.siete">7</string>
+    <string name="textbutton.cuatro">4</string>
+    <string name="textbutton.uno">1</string>
+    <string name="textbutton.punto">.</string>
 </resources>

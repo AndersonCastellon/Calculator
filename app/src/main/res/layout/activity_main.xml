@@ -26,4 +26,37 @@
 
     </android.support.design.widget.TextInputLayout>
 
+    <LinearLayout
+        android:id="@+id/Llone"
+        android:layout_width="@dimen/calc.buttom.size"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tilInput"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnsiete"
+            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_height="@dimen/calc.buttom.size"
+            android:text="@string/textbutton.siete"/>
+
+        <Button
+            android:id="@+id/btncuatro"
+            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_height="@dimen/calc.buttom.size"
+            android:text="@string/textbutton.cuatro"/>
+
+        <Button
+            android:id="@+id/btnuno"
+            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_height="@dimen/calc.buttom.size"
+            android:text="@string/textbutton.uno"/>
+
+        <Button
+            android:id="@+id/btnpunto"
+            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_height="@dimen/calc.buttom.size"
+            android:text="@string/textbutton.punto"/>
+
+    </LinearLayout>
+
 </RelativeLayout>
