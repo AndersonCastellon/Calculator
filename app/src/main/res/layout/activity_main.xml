@@ -37,25 +37,29 @@
             android:id="@+id/btnsiete"
             android:layout_width="@dimen/calc.buttom.size"
             android:layout_height="@dimen/calc.buttom.size"
-            android:text="@string/textbutton.siete"/>
+            android:text="@string/textbutton.siete"
+            android:theme="@style/botones"/>
 
         <Button
             android:id="@+id/btncuatro"
             android:layout_width="@dimen/calc.buttom.size"
             android:layout_height="@dimen/calc.buttom.size"
-            android:text="@string/textbutton.cuatro"/>
+            android:text="@string/textbutton.cuatro"
+            android:theme="@style/botones"/>
 
         <Button
             android:id="@+id/btnuno"
             android:layout_width="@dimen/calc.buttom.size"
             android:layout_height="@dimen/calc.buttom.size"
-            android:text="@string/textbutton.uno"/>
+            android:text="@string/textbutton.uno"
+            android:theme="@style/botones"/>
 
         <Button
             android:id="@+id/btnpunto"
             android:layout_width="@dimen/calc.buttom.size"
             android:layout_height="@dimen/calc.buttom.size"
-            android:text="@string/textbutton.punto"/>
+            android:text="@string/textbutton.punto"
+            android:theme="@style/botones"/>
 
     </LinearLayout>
 
