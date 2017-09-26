@@ -38,7 +38,6 @@
         android:id="@+id/Llone"
         android:layout_width="@dimen/calc.buttom.size"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tilInput"
         android:orientation="vertical">
 
         <Button
@@ -75,7 +74,6 @@
         android:id="@+id/Lldos"
         android:layout_width="@dimen/calc.buttom.size"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tilInput"
         android:layout_toEndOf="@id/Llone"
         android:orientation="vertical">
 
@@ -113,7 +111,6 @@
         android:id="@+id/Lltres"
         android:layout_width="@dimen/calc.buttom.size"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tilInput"
         android:layout_toEndOf="@id/Lldos"
         android:orientation="vertical">
 
@@ -144,7 +141,6 @@
     android:id="@+id/Llcuatro"
     android:layout_width="@dimen/calc.buttom.size.operadores"
     android:layout_height="wrap_content"
-    android:layout_below="@id/tilInput"
     android:layout_toEndOf="@id/Lltres"
     android:orientation="vertical">
 
