@@ -5,4 +5,17 @@
     <string name="textbutton.cuatro">4</string>
     <string name="textbutton.uno">1</string>
     <string name="textbutton.punto">.</string>
+    <string name="textbutton.ocho">8</string>
+    <string name="textbutton.cinco">5</string>
+    <string name="textbutton.dos">2</string>
+    <string name="textbutton.cero">0</string>
+    <string name="textbutton.nueve">9</string>
+    <string name="textbutton.seis">6</string>
+    <string name="textbutton.tres">3</string>
+    <string name="textbutton.borrar">C</string>
+    <string name="textbutton.divisor">÷</string>
+    <string name="textbutton.multiplicador">x</string>
+    <string name="textbutton.resta">-</string>
+    <string name="textbutton.suma">+</string>
+    <string name="textbutton.igual">=</string>
 </resources>

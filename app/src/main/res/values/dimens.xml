@@ -2,5 +2,7 @@
 <resources>
     <dimen name="calc.dimen.input">96dp</dimen>
     <dimen name="calc.buttom.size">64dp</dimen>
+    <dimen name="calc.buttom.size.operadores">128dp</dimen>
+    <dimen name="calc.buttom.size.igual">192dp</dimen>
     <dimen name="calc.TextButtonStyle.Size">28sp</dimen>
 </resources>

@@ -26,6 +26,14 @@
 
     </android.support.design.widget.TextInputLayout>
 
+    <RelativeLayout
+        android:id="@+id/Main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tilInput"
+        android:layout_centerInParent="true">
+
+
     <LinearLayout
         android:id="@+id/Llone"
         android:layout_width="@dimen/calc.buttom.size"
@@ -59,8 +67,160 @@
             android:layout_width="@dimen/calc.buttom.size"
             android:layout_height="@dimen/calc.buttom.size"
             android:text="@string/textbutton.punto"
-            android:theme="@style/botones"/>
+            android:theme="@style/Operadores"/>
 
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Lldos"
+        android:layout_width="@dimen/calc.buttom.size"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tilInput"
+        android:layout_toEndOf="@id/Llone"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnocho"
+            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_height="@dimen/calc.buttom.size"
+            android:text="@string/textbutton.ocho"
+            android:theme="@style/botones" />
+
+        <Button
+            android:id="@+id/btncinco"
+            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_height="@dimen/calc.buttom.size"
+            android:text="@string/textbutton.cinco"
+            android:theme="@style/botones" />
+
+        <Button
+            android:id="@+id/btdos"
+            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_height="@dimen/calc.buttom.size"
+            android:text="@string/textbutton.dos"
+            android:theme="@style/botones" />
+
+        <Button
+            android:id="@+id/btncero"
+            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_height="@dimen/calc.buttom.size"
+            android:text="@string/textbutton.cero"
+            android:theme="@style/botones" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Lltres"
+        android:layout_width="@dimen/calc.buttom.size"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tilInput"
+        android:layout_toEndOf="@id/Lldos"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnnueve"
+            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_height="@dimen/calc.buttom.size"
+            android:text="@string/textbutton.nueve"
+            android:theme="@style/botones" />
+
+        <Button
+            android:id="@+id/btnseis"
+            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_height="@dimen/calc.buttom.size"
+            android:text="@string/textbutton.seis"
+            android:theme="@style/botones" />
+
+        <Button
+            android:id="@+id/bttres"
+            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_height="@dimen/calc.buttom.size"
+            android:text="@string/textbutton.tres"
+            android:theme="@style/botones" />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:id="@+id/Llcuatro"
+    android:layout_width="@dimen/calc.buttom.size.operadores"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tilInput"
+    android:layout_toEndOf="@id/Lltres"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnC"
+        android:layout_width="@dimen/calc.buttom.size.operadores"
+        android:layout_height="@dimen/calc.buttom.size"
+        android:text="@string/textbutton.borrar"
+        android:theme="@style/botonC" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LlOperadores1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Llcuatro"
+        android:layout_toEndOf="@id/Lltres"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btndivisor"
+            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_height="@dimen/calc.buttom.size"
+            android:text="@string/textbutton.divisor"
+            android:theme="@style/Operadores" />
+
+        <Button
+            android:id="@+id/btnmultiplicador"
+            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_height="@dimen/calc.buttom.size"
+            android:text="@string/textbutton.multiplicador"
+            android:theme="@style/Operadores" />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:id="@+id/LlOperadores2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/LlOperadores1"
+    android:layout_toEndOf="@id/Lltres"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnresta"
+        android:layout_width="@dimen/calc.buttom.size"
+        android:layout_height="@dimen/calc.buttom.size"
+        android:text="@string/textbutton.resta"
+        android:theme="@style/Operadores" />
+
+    <Button
+        android:id="@+id/btnsuma"
+        android:layout_width="@dimen/calc.buttom.size"
+        android:layout_height="@dimen/calc.buttom.size"
+        android:text="@string/textbutton.suma"
+        android:theme="@style/Operadores" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Lligual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LlOperadores2"
+        android:layout_toEndOf="@id/Lldos"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnigual"
+            android:layout_width="@dimen/calc.buttom.size.igual"
+            android:layout_height="@dimen/calc.buttom.size"
+            android:text="@string/textbutton.igual"
+            android:theme="@style/Igual" />
+
+    </LinearLayout>
+    </RelativeLayout>
 
 </RelativeLayout>
