@@ -139,14 +139,14 @@
 
     <LinearLayout
     android:id="@+id/Llcuatro"
-    android:layout_width="@dimen/calc.buttom.size.operadores"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_toEndOf="@id/Lltres"
     android:orientation="vertical">
 
     <Button
         android:id="@+id/btnC"
-        android:layout_width="@dimen/calc.buttom.size.operadores"
+        android:layout_width="match_parent"
         android:layout_height="@dimen/calc.buttom.size"
         android:text="@string/textbutton.borrar"
         android:theme="@style/botonC" />
@@ -155,7 +155,7 @@
 
     <LinearLayout
         android:id="@+id/LlOperadores1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/Llcuatro"
         android:layout_toEndOf="@id/Lltres"
@@ -163,23 +163,25 @@
 
         <Button
             android:id="@+id/btndivisor"
-            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_width="0dp"
             android:layout_height="@dimen/calc.buttom.size"
             android:text="@string/textbutton.divisor"
-            android:theme="@style/Operadores" />
+            android:theme="@style/Operadores"
+            android:layout_weight="50"/>
 
         <Button
             android:id="@+id/btnmultiplicador"
-            android:layout_width="@dimen/calc.buttom.size"
+            android:layout_width="0dp"
             android:layout_height="@dimen/calc.buttom.size"
             android:text="@string/textbutton.multiplicador"
-            android:theme="@style/Operadores" />
+            android:theme="@style/Operadores"
+            android:layout_weight="50"/>
 
     </LinearLayout>
 
     <LinearLayout
     android:id="@+id/LlOperadores2"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_below="@id/LlOperadores1"
     android:layout_toEndOf="@id/Lltres"
@@ -187,23 +189,25 @@
 
     <Button
         android:id="@+id/btnresta"
-        android:layout_width="@dimen/calc.buttom.size"
+        android:layout_width="0dp"
         android:layout_height="@dimen/calc.buttom.size"
         android:text="@string/textbutton.resta"
-        android:theme="@style/Operadores" />
+        android:theme="@style/Operadores"
+        android:layout_weight="50"/>
 
     <Button
         android:id="@+id/btnsuma"
-        android:layout_width="@dimen/calc.buttom.size"
+        android:layout_width="0dp"
         android:layout_height="@dimen/calc.buttom.size"
         android:text="@string/textbutton.suma"
-        android:theme="@style/Operadores" />
+        android:theme="@style/Operadores"
+        android:layout_weight="50"/>
 
 </LinearLayout>
 
     <LinearLayout
         android:id="@+id/Lligual"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/LlOperadores2"
         android:layout_toEndOf="@id/Lldos"
@@ -211,7 +215,7 @@
 
         <Button
             android:id="@+id/btnigual"
-            android:layout_width="@dimen/calc.buttom.size.igual"
+            android:layout_width="match_parent"
             android:layout_height="@dimen/calc.buttom.size"
             android:text="@string/textbutton.igual"
             android:theme="@style/Igual" />
