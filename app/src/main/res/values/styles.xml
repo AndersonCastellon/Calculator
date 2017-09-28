@@ -10,31 +10,25 @@
 
     <!--button-->
 
-    <style name="botones" parent="Theme.AppCompat.Light">
+    <style name="TemaBase" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="colorControlHighlight">@color/colorPrimary</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">@dimen/calc.TextButtonStyle.Size</item>
+    </style>
+
+    <style name="botones" parent="TemaBase">
         <item name="colorButtonNormal">@color/colorAccent</item>
     </style>
 
-    <style name="botonC" parent="Theme.AppCompat.Light">
-        <item name="colorControlHighlight">@color/colorPrimary</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">@dimen/calc.TextButtonStyle.Size</item>
+    <style name="botonC" parent="TemaBase">
         <item name="colorButtonNormal">@color/BotonC</item>
     </style>
 
-    <style name="Operadores" parent="Theme.AppCompat.Light">
-        <item name="colorControlHighlight">@color/colorPrimary</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">@dimen/calc.TextButtonStyle.Size</item>
+    <style name="Operadores" parent="TemaBase">
         <item name="colorButtonNormal">@color/color.operadores</item>
     </style>
 
-    <style name="Igual" parent="Theme.AppCompat.Light">
-        <item name="colorControlHighlight">@color/colorPrimary</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">@dimen/calc.TextButtonStyle.Size</item>
+    <style name="Igual" parent="TemaBase">
         <item name="colorButtonNormal">@color/color.igual</item>
     </style>
 
