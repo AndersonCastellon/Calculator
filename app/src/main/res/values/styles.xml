@@ -10,26 +10,30 @@
 
     <!--button-->
 
-    <style name="TemaBase" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <!--Style correcto-->
+
+    <style name="ButtonBase" parent="Theme.AppCompat.Light">
         <item name="colorControlHighlight">@color/colorPrimary</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">@dimen/calc.TextButtonStyle.Size</item>
+        <item name="android:textSize">@dimen/calc.btn.textSize</item>
     </style>
 
-    <style name="botones" parent="TemaBase">
+    <style name="ButtonMD" parent="ButtonBase">
         <item name="colorButtonNormal">@color/colorAccent</item>
     </style>
 
-    <style name="botonC" parent="TemaBase">
-        <item name="colorButtonNormal">@color/BotonC</item>
+    <style name="ButtonMDDark" parent="ButtonBase">
+        <item name="colorButtonNormal">@color/gray_700</item>
     </style>
 
-    <style name="Operadores" parent="TemaBase">
-        <item name="colorButtonNormal">@color/color.operadores</item>
+    <style name="ButtonMDDarker" parent="ButtonBase">
+        <item name="colorButtonNormal">@color/gray_800</item>
     </style>
 
-    <style name="Igual" parent="TemaBase">
-        <item name="colorButtonNormal">@color/color.igual</item>
+    <style name="ButtonMDDanger" parent="ButtonBase">
+        <item name="colorButtonNormal">@color/red_500</item>
     </style>
+
+
 
 </resources>

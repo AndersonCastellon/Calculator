@@ -1,21 +1,21 @@
 <resources>
     <string name="app_name">Calculator</string>
-    <string name="calc.string.hint">Que quieres calcular hoy?</string>
-    <string name="textbutton.punto">.</string>
-    <string name="textbutton.uno">1</string>
-    <string name="textbutton.dos">2</string>
-    <string name="textbutton.tres">3</string>
-    <string name="textbutton.cuatro">4</string>
-    <string name="textbutton.cinco">5</string>
-    <string name="textbutton.seis">6</string>
-    <string name="textbutton.siete">7</string>
-    <string name="textbutton.ocho">8</string>
-    <string name="textbutton.nueve">9</string>
-    <string name="textbutton.cero">0</string>
-    <string name="textbutton.borrar">C</string>
-    <string name="textbutton.divisor">÷</string>
-    <string name="textbutton.multiplicador">x</string>
-    <string name="textbutton.resta">-</string>
-    <string name="textbutton.suma">+</string>
-    <string name="textbutton.igual">=</string>
+    <string name="calc.hint.input">Que quieres calcular hoy?</string>
+    <string name="calc.btn.point">.</string>
+    <string name="calc.btn.one">1</string>
+    <string name="calc.btn.two">2</string>
+    <string name="calc.btn.three">3</string>
+    <string name="calc.btn.four">4</string>
+    <string name="calc.btn.five">5</string>
+    <string name="calc.btn.six">6</string>
+    <string name="calc.btn.seven">7</string>
+    <string name="calc.btn.eight">8</string>
+    <string name="calc.btn.nine">9</string>
+    <string name="calc.btn.zero">0</string>
+    <string name="calc.btn.clear">C</string>
+    <string name="calc.btn.betwen">÷</string>
+    <string name="calc.btn.multi">x</string>
+    <string name="calc.btn.sub">-</string>
+    <string name="calc.btn.sum">+</string>
+    <string name="calc.btn.result">=</string>
 </resources>
